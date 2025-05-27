@@ -6,7 +6,160 @@
         <title>
             Shohag Biswas- Curriculum Vitae
         </title>
-        <link rel="stylesheet" href="CV_css_file.css">
+        <style>
+            body {
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
+.photo-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+.photo-box p {
+    font-size: 24px;
+    line-height: 1.8;
+}
+.photo-box img {
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+}
+fieldset {
+  border: 2px solid #716464; 
+  margin: 0 20px 20px;
+  padding: 5px 10px;
+  background-color: #f9f9f9; 
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  transition: 0.3s ease, box-shadow 0.3s ease;
+ 
+}
+fieldset:hover {
+    transform: scale(1.04);
+  }
+legend {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 2px 12px;
+  color: black;
+   background-color: rgb(53, 160, 151);
+}
+p {
+    font-size: 16px;
+    color: black;
+    padding: 0 20px;
+    margin-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul {
+    margin-left: 7%;
+    padding-left: 0;
+    font-size: 16px;
+    line-height: 1.8;
+    list-style: none;
+    color: black;
+    margin-top: 10px;
+}
+
+ul li::before {
+    content: "\27A4";
+    color: rgb(53, 160, 151);
+    margin-right: 10px;
+    font-weight: bold;
+}
+table {
+    margin: 5px;
+    font-size: 16px;
+    color: black;
+}
+
+td {
+    padding: 2px 6px;
+    vertical-align: top;
+}
+
+td:first-child {
+    font-weight: bold;
+    color: black;
+}
+
+td:nth-child(2) {
+    padding-left: 0;
+}
+ .signature {
+            margin-top: 100px;
+            width: 300px;
+        }
+
+        .signature-line {
+            border-top: 2px solid #000;
+            width: 200px;
+            margin-bottom: 5px;
+        }
+
+        .name {
+            font-weight: bold;
+            font-size: 18px;
+            padding-left: 10px;
+        }
+
+        .date {
+            font-weight: bold;
+            font-size: 16px;
+            margin-top: 10px;
+            padding-left: 10px;
+        }
+@media (max-width: 768px) {
+    body {
+        margin: 2px;
+        padding: 2px;
+        border: none;
+    }
+
+    .photo-box {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .photo-box p {
+        font-size: 18px;
+    }
+
+    .photo-box img {
+        height: 180px;
+        width: 180px;
+        margin-top: 15px;
+    }
+
+    fieldset {
+        margin: 10px 10px;
+        padding: 10px;
+    }
+
+    legend {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    p, ul, table {
+        font-size: 14px;
+    }
+
+    .signature {
+        width: 100%;
+        margin: 40px 10px 0;
+    }
+
+    .signature-line {
+        width: 70%;
+    }
+}
+        </style>
     </head>
     <body>
         <div class="photo-box">
